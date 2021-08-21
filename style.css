@@ -1,0 +1,72 @@
+/* Macbook Pro section style  */
+.macbook-container {
+    display: flex;
+    justify-content: center;
+}
+.macbook-picture {
+    width: 30%;
+}
+.macbook-picture img{
+    width: 80%;
+}
+.macbook-details {
+    width: 30%;
+}
+/* Memory Storage Delvery Part Style  */
+.customize-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-heading {
+    font-weight: bold;
+}
+
+.every-button {
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    padding: 2px;
+}
+.every-button:hover {
+    color: white;
+    background-color: black;
+    border: 3px solid black;
+}
+.every-button:active{
+    border: 3px solid skyblue;
+}
+
+/* Price Calculation Style  */
+.price-container {
+    width: 50%;
+    /* border-collapse: collapse; */
+}
+.price-container .price-row {
+    border-bottom: 1px solid lightgray;
+}
+.price-container .price-row-different {
+    border-bottom: 2px solid black;
+}
+.price-style {
+    padding-left: 50px;
+}
+table tr th {
+    text-align: left;
+}
+.promo-container {
+    padding-top: 30px;
+}
+.apply-button {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+/* Macbook pro  footer style  */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+    background-color: lightgray;
+}
